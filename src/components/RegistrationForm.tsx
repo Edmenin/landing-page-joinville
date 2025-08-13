@@ -312,10 +312,10 @@ const RegistrationForm: React.FC = () => {
         ]
       };
 
-      const response = await fetch('https://api.airtable.com/v0/appDuylO6HJa3H4Z2/Cadastros', {
+      const response = await fetch(`https://api.airtable.com/v0/${import.meta.env.VITE_AIRTABLE_BASE_ID}/${import.meta.env.VITE_AIRTABLE_TABLE_NAME}`, {
         method: 'POST',
         headers: {
-          'Authorization': 'Bearer patEin9XUwuU3TOvN.7c802095c636b0ba1142e6fb004e43ca74a93d14a32d60c38cfc1dd8c93f8c6e',
+          'Authorization': `Bearer ${import.meta.env.VITE_AIRTABLE_API_KEY}`,
           'Content-Type': 'application/json'
         },
         body: JSON.stringify(airtableData)
