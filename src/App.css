@@ -334,6 +334,31 @@ body {
   border-color: #94a3b8;
 }
 
+.form-input.error {
+  border-color: #ef4444;
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+}
+
+.form-input.error:focus {
+  border-color: #ef4444;
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+}
+
+.error-message {
+  color: #dc2626;
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+  padding: 0.25rem 0;
+  animation: fadeIn 0.3s ease;
+}
+
+.help-text {
+  color: #64748b;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+  font-style: italic;
+}
+
 .submit-button {
   width: 100%;
   background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
