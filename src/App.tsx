@@ -17,7 +17,7 @@ function App() {
       <header className="header">
         <div className="container">
           <div className="logo">
-            <img src="/src/assets/logo-cdl-joinville.png" alt="CDL Joinville" className="logo-image" />
+            <img src="/logo-cdl-joinville.png" alt="CDL Joinville" className="logo-image" />
           </div>
         </div>
       </header>
@@ -117,7 +117,7 @@ function App() {
             
             <div className="steps-image">
               <div className="fueling-photo">
-                <img src="src/assets/combustivel.jpg" alt="Abastecimento de combustível" />
+                <img src="/combustivel.jpg" alt="Abastecimento de combustível" />
               </div>
             </div>
           </div>
@@ -142,10 +142,10 @@ function App() {
               <p className="footer-slogan">Descontos em todos os postos parceiros</p>
               <div className="social-icons">
                 <a href="https://www.facebook.com/JoinvilleCDL/?locale=pt_BR" className="social-icon facebook">
-                  <img src="/src/assets/facebook-3-logo-svgrepo-com.svg" alt="Facebook" />
+                  <img src="/facebook-3-logo-svgrepo-com.svg" alt="Facebook" />
                 </a>
                 <a href="https://www.instagram.com/cdljoinville" className="social-icon instagram">
-                  <img src="/src/assets/instagram-1-svgrepo-com.svg" alt="Instagram" />
+                  <img src="/instagram-1-svgrepo-com.svg" alt="Instagram" />
                 </a>
               </div>
             </div>
