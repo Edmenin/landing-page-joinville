@@ -312,7 +312,7 @@ const RegistrationForm: React.FC = () => {
         ]
       };
 
-      const response = await fetch(`https://api.airtable.com/v0/${import.meta.env.VITE_AIRTABLE_BASE_ID}/${import.meta.env.VITE_AIRTABLE_TABLE_NAME}`, {
+      const response = await fetch(`https://api.airtable.com/v0/${import.meta.env.VITE_AIRTABLE_BASE_ID}/${import.meta.env.VITE_AIRTABLE_TABLE_ID}`, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${import.meta.env.VITE_AIRTABLE_API_KEY}`,
